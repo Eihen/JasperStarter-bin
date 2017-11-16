@@ -1,3 +1,4 @@
+# JasperStarter Binary Package
 This repository contains the files from JasperStarter binary releases obtained directly from [Sourceforge][] without any modifications in order to provide it as a package for package managers such as composer.
 
 Issues opened on this repository must be related to the package manager files (such as composer.json) or notices about new releases of JasperStarter, for issues with JasperStarter itself refer to [Feedback](#feedback).
