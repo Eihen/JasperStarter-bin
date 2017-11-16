@@ -5,6 +5,7 @@ Issues opened on this repository must be related to the package manager files (s
 
 Current JasperStarter: [v3.2.1](https://sourceforge.net/projects/jasperstarter/files/JasperStarter-3.2/jasperstarter-3.2.1-bin.zip)
 
+For usage of the specific version contained in this package refer to [Usage](https://eihen.github.io/JasperStarter-bin/usage.html).
 
 JasperStarter - Running JasperReports from command line
 --------------------------------------------------------
