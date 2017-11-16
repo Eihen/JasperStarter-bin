@@ -1,0 +1,43 @@
+{
+    "name": "eihen/jasperstarter-bin",
+    "type": "library",
+    "description": "Command line JasperReports tool",
+    "keywords": [
+        "Eihen",
+        "JasperPHP",
+        "jasperreports",
+        "jasper-reports",
+        "reports",
+        "jasperstarter",
+        "jaspersoft"
+    ],
+    "homepage": "https://github.com/Eihen/JasperStarter-bin",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Volker Voßkämper",
+            "email": "vosskaem@users.sourceforge.net",
+            "homepage": "http://jasperstarter.cenote.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Barbora Berlinger",
+            "email": "boraber@users.sourceforge.net",
+            "homepage": "http://jasperstarter.cenote.de",
+            "role": "Translator"
+        },
+        {
+            "name": "Emerson Belancieri",
+            "email": "emersonbelancieri@gmail.com",
+            "homepage": "https://github.com/Eihen",
+            "role": "Package Mantainer"
+        }
+    ],
+    "bin": [
+        "bin/jasperstarter",
+        "bin/jasperstarter.exe"
+    ],
+    "config": {
+        "sort-packages": true
+    }
+}
