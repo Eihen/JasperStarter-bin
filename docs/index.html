@@ -12,24 +12,25 @@
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
 
-      
+
     <script type="text/javascript" src="./js/apache-maven-fluido.min.js"></script>
 
-    
+
     <meta name="Date-Revision-yyyymmdd" content="20171017" />
     <meta http-equiv="Content-Language" content="en" />
-    
+
         </head>
         <body class="topBarDisabled">
-          
-                
-                    
-    
+
+
+
+
         <div class="container-fluid">
           <div id="banner">
         <div class="pull-left">
                                 <div id="bannerLeft">
                 <h2>JasperStarter - Running JasperReports from command line</h2>
+                <h3>This is a mirror from the JasperStarter official page using the docs pages provided in the binary package</h3>
                 </div>
                       </div>
         <div class="pull-right">  </div>
@@ -38,19 +39,19 @@
 
       <div id="breadcrumbs">
         <ul class="breadcrumb">
-                
-                    
+
+
                   <li id="projectVersion">Version: 3.2.1</li>
-              
-                
-                    
-      
-                                  
+
+
+
+
+
     <li class="pull-right">              <a href="cs/index.html" title="[cs]">[cs]</a>
   </li>
 
         <li class="divider pull-right">|</li>
-      
+
     <li class="pull-right">              <a href="de/index.html" title="[de]">[de]</a>
   </li>
 
@@ -60,8 +61,8 @@
             <div class="row-fluid">
         <div id="leftColumn" class="span3">
           <div class="well sidebar-nav">
-                
-                    
+
+
                                     <h3>Overview</h3>
                   <ul>
                   <li class="none">
@@ -104,22 +105,22 @@
                           <a href="project-info.html" title="Project Information">Project Information</a>
                   </li>
           </ul>
-                      
-                    
+
+
                 <div id="lastPublished">
         <span id="publishDate">Last Published: 2017-10-17</span>
               </div>
-                
+
           <hr class="divider" />
 
            <div id="poweredBy">
                             <div class="clear"></div>
                             <div class="clear"></div>
-               
-        
-        
+
+
+
         <div id="twitter">
-    
+
     <a href="https://twitter.com/vosskaem" class="twitter-follow-button" data-show-count="false" data-align="left" data-size="medium" data-show-screen-name="false" data-lang="en">Follow vosskaem</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
@@ -131,9 +132,9 @@
                   </div>
           </div>
         </div>
-        
+
         <div id="bodyColumn"  class="span9" >
-                                  
+
             <div class="section">
 <h2>JasperStarter - Running JasperReports from command line<a name="JasperStarter_-_Running_JasperReports_from_command_line"></a></h2>
 <p>JasperStarter is an opensource command line launcher and batch compiler for <a class="externalLink" href="http://community.jaspersoft.com/project/jasperreports-library">JasperReports</a>.</p>
@@ -141,68 +142,68 @@
 <p>It has the following features:</p>
 
 <ul>
-  
+
 <li>Run any JasperReport that needs a jdbc, csv, xml, json or empty datasource</li>
-  
+
 <li>Use with any database for which a jdbc driver is available</li>
-  
+
 <li>Run reports with subreports</li>
-  
+
 <li>Execute reports that need runtime parameters. Any parameter whose class has a string constructor is accepted. Additionally the following types are supported or have special handlers:
-  
+
 <ul>
-    
+
 <li>date, image (see usage), locale</li>
   </ul></li>
-  
+
 <li>Optionally prompt for report parameters</li>
-  
+
 <li>Print directly to system default or given printer</li>
-  
+
 <li>Optionally show printer dialog to choose printer</li>
-  
+
 <li>Optionally show printpreview</li>
-  
+
 <li>Export to file in the following formats:
-  
+
 <ul>
-    
+
 <li>pdf, rtf, xls, xlsMeta, xlsx, docx, odt, ods, pptx, csv, csvMeta, html, xhtml, xml, jrprint</li>
   </ul></li>
-  
+
 <li>Export multiple formats in one commanding call</li>
-  
+
 <li>Compile, print and export in one commanding call</li>
-  
+
 <li>View, print or export previously filled reports (use jrprint file as input)</li>
-  
+
 <li>Can compile a whole directory of .jrxml files.</li>
-  
+
 <li>Integrate in non Java applications (for example PHP, Python)</li>
-  
+
 <li>Binary executable on Windows</li>
-  
+
 <li>Includes JasperReports so this is the only tool you need to install</li>
 </ul>
 <p>Requirements:</p>
 
 <ul>
-  
+
 <li>Java 1.6 or higher</li>
-  
+
 <li>A JDBC 2.1 driver for your database</li>
 </ul>
 <div class="section">
 <h3>Quickstart<a name="Quickstart"></a></h3>
 
 <ul>
-  
+
 <li>Download JasperStarter from <a class="externalLink" href="http://sourceforge.net/projects/jasperstarter/">Sourceforge</a>.</li>
-  
+
 <li>Extract the distribution archive to any directory on your system.</li>
-  
+
 <li>Add the <i>./bin</i> directory of your installation to your searchpath (on Windows: invoke setup.exe).</li>
-  
+
 <li>Put your jdbc drivers in the <i>./jdbc</i> directory of your installation or use <i>--jdbc-dir</i> to point to a different directory.</li>
 </ul>
 <p>Invoke JasperStarter with <i>-h</i> to get an overview:</p>
@@ -246,11 +247,11 @@
 <p>On Linux 64 bit the launch4j-maven-plugin may fail. You need the folloing libs in a 32 bit version:</p>
 
 <ul>
-  
+
 <li>z1</li>
-  
+
 <li>ncurses5</li>
-  
+
 <li>bz2-1.0</li>
 </ul>
 <p>On Ubuntu 14.04 for example use this command:</p>
@@ -318,19 +319,19 @@
 <p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &#x201c;AS IS&#x201d; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p></div></div>
                   </div>
             </div>
-      
+
     <hr/>
 
     <footer>
             <div class="container-fluid">
               <div class="row span16">Copyright &copy;                    2012-2017
                         <a href="http://www.cenote.de">Cenote GmbH</a>.
-            All Rights Reserved.      
-                    
+            All Rights Reserved.
+
       </div>
 
-        
-        
+
+
                 </div>
     </footer>
   </body>
