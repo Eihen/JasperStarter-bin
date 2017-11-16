@@ -1,11 +1,17 @@
 # JasperStarter Binary Package
 This repository contains the files from JasperStarter binary releases obtained directly from [Sourceforge][] without any modifications in order to provide it as a package for package managers such as composer.
 
+#### Issues
 Issues opened on this repository must be related to the package manager files (such as composer.json) or notices about new releases of JasperStarter, for issues with JasperStarter itself refer to [Feedback](#feedback).
 
+#### Package version information
+The 3 first numbers of the version corresponds to the JasperStarter version and the 4th number is used to advance the version of the package for changes made to other files in this repository.
+So v3.2.1.1 corresponds to JasperStarter v3.2.1 and revision 1 of this repository after that version of JasperStarter was included.
+
+### JasperStarter Info
 Current JasperStarter: [v3.2.1](https://sourceforge.net/projects/jasperstarter/files/JasperStarter-3.2/jasperstarter-3.2.1-bin.zip)
 
-For usage of the specific version contained in this package refer to [Usage](https://eihen.github.io/JasperStarter-bin/usage.html).
+For usage instructions of the specific version contained in this package refer to [Usage](https://eihen.github.io/JasperStarter-bin/usage.html).
 
 ### JDBC Connectors
 All JDBC connectors contained in this package were obtained directly from their respective official sources and withouth any modifications.
